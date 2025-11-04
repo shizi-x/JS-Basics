@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(200, 200, 200, 0.4);
+  font-size: 95%;
+}
+.container {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  height: 45%;
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+}
+section {
+  padding: 0.01% 0 1% 0;
+  margin: 25% 5% 30%;
+}
+h1{
+  text-align: center;
+}
+#form {
+  width: 100%;
+  display: grid;
+  justify-content: stretch;
+  align-items: stretch;
+  margin: 0 auto;
+}
+input, button {
+  border-radius: 5px;
+  margin: 1.5% 2% 1.5% 1%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1.5%;
+  font-size: 1.2rem;
+}
+button {
+  background-color: #5CC655;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+button:hover {
+  background-color: #5CA655;
+  border-radius: 5px;
+  color: #fff;
+}
+#total {
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: 90%;
+    width: 60%;
+  }
+  input {
+    margin: 0 8% 0 8% auto;
+  }
+}

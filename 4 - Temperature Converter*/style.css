@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(90deg,rgba(42, 123, 155, 0.55) 0%, rgba(87, 199, 133, 0.55) 39%, rgba(145, 237, 83, 0.55) 91%);
+  font-size: 130%;
+  min-height: 100vh;
+  font-family: monospace;
+  color: rgb(96, 120, 180); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: rgba(245, 250, 245, 0.3);
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto;
+  align-items: stretch;
+  min-width: 40%;
+  max-width: 60%;
+  padding: 0 0 2% 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input {
+  border-radius: 4px;
+  font-size: 100%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset;
+  border: 1.5px solid #a5d6a7;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: linear-gradient(90deg, rgba(150, 150, 150, 0.7), rgba(255, 255, 255, 0.8));
+  max-width: 200px;
+  outline: none;
+}
+input:focus {
+  border-color: #26a69a;
+  box-shadow: 0 0 5px rgba(38, 166, 154, 0.5);
+}
+p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 5%;
+  font-weight: bold;
+}  
+h1, h2 {
+  text-align: center;
+  margin: 2%;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 100%;
+  }
+  .container {
+    height: 350px;
+  }
+  p {
+    diplay: flex;
+    flex-direction: column;
+  }
+  h1 {
+    margin-bottom: 10%;
+  }
+} 
+@media only screen and (min-width: 600px) {
+  body {
+     font-size: 110%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 120%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: 150%;
+  }
+}
