@@ -1,0 +1,22 @@
+body {
+    font-family:fantasy;
+    background: linear-gradient(90deg, rgba(132, 226, 100, 0.7), rgba(240, 190, 220, 0.8));
+}
+.container {
+    background-color: rgba(230, 230, 230, 0.8);
+    width: 45%;
+    margin: 10% auto;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-size: 2rem;
+}
+#time {
+    font-size: 3rem;
+}
