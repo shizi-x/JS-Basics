@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background: linear-gradient(90deg, rgba(130, 211, 231, 0.7), rgba(220, 220, 220, 0.8));
   font-family: fantasy;
 }
@@ -113,4 +114,26 @@ p {
   .container {
     min-width: 500px;
   }
+=======
+    font-family:fantasy;
+    background: linear-gradient(90deg, rgba(132, 226, 100, 0.7), rgba(240, 190, 220, 0.8));
+}
+.container {
+    background-color: rgba(230, 230, 230, 0.8);
+    width: 45%;
+    margin: 10% auto;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    font-size: 2rem;
+}
+#time {
+    font-size: 3rem;
+>>>>>>> 29556b087465555d86ebdb97980e72662071a3e5
 }
