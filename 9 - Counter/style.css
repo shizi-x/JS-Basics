@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(90deg, rgba(160, 220, 90, 0.7), rgba(220, 200, 120, 0.7));
+    font-family: cursive;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 8% auto;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  width: 35%;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#title {
+    font-size: 2.7rem;
+    margin: 2% 0 5% 0;
+}
+p {
+    margin : 0 0 2% 0;
+}
+#numb{
+    font-size: 4rem;
+    background: linear-gradient(90deg, rgba(160, 220, 90, 0.7), rgba(220, 200, 120, 0.7));
+    border-radius: 10px;
+    margin: 2%;
+    width: 25%;
+    text-align: center;
+}
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+button:hover {
+    background-color: rgb(230, 230, 230);
+}
+@media only screen and (max-width: 600px){
+    .container{
+        min-width: 400px;
+        max-width: 450px;
+    }
+}
