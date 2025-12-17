@@ -1,8 +1,13 @@
 const time = document.getElementById("time");
-const start = document.getElementById("start");
-const stop = document.getElementById("stop");
-const reset = document.getElementById("reset");
 
-const updateTime() => {
+function startClock() {
+    time.innerText = "00:00:01";
+}
 
+function stopClock() {
+    
+}
+
+function resetClock() {
+    
 }

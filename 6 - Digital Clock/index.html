@@ -11,11 +11,13 @@
 <body>
    <div class="container">
       <div id="title">DIGITAL CLOCK</div>
-         <div id="time">00:00:00</div>
+         <div class="cont">
+            <div id="time">00:00:00</div>
+         </div>
       <div id="command">
-         <button id="start">START</button>
-         <button id="stop">STOP</button>
-         <button id="reset">RESET</button>
+         <button onclick="startClock()" id="start">START</button>
+         <button onclick="stopClock()" id="stop">STOP</button>
+         <button onclick="resetClock()" id="reset">RESET</button>
       </div>
    </div>
 
